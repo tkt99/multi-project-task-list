@@ -1,0 +1,15 @@
+{
+  "name": "multi-project-task-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/tkt99/multi-project-task-list",
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  }
+}
