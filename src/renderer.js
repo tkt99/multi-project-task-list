@@ -4,3 +4,10 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
+
+//todo: button to create a new "project"
+//todo: button to create a new "task"
+//todo: button to create a new "subtask"
+//todo: delete each one too
+
+//todo: undo creation/deletion of all

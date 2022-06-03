@@ -6,15 +6,64 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
     <link href="./styles.css" rel="stylesheet">
     <script defer src="./renderer.js"></script>
-    <title>Hello World!</title>
+    <title>Multido</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>
-      We are using Node.js <span id="node-version"></span>,
-      Chromium <span id="chrome-version"></span>,
-      and Electron <span id="electron-version"></span>.
-    </p>
-    <!-- You can also require other files to run in this process -->
+    <div id="list1">
+      <p class="project-title">project1</p>
+      <ul class="tasks">
+        <li>Lorem, ipsum dolor.</li>
+          <ul class="subtasks">
+            <li>Praesentium laudantium itaque enim.</li>
+            <li>Quis incidunt adipisci pariatur.</li>
+            <li>Quaerat ut expedita alias!</li>
+          </ul>
+        <li>Lorem, ipsum dolor.</li>
+          <ul class="subtasks">
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Praesentium laudantium itaque enim.</li>
+            <li>Quis incidunt adipisci pariatur.</li>
+            <li>Quaerat ut expedita alias!</li>
+          </ul>
+        <li>Lorem, ipsum dolor.</li>
+          <ul class="subtasks">
+              <li>Quis incidunt adipisci pariatur.</li>
+          </ul>
+      </ul>
+    </div> 
+
+    <div id="list2">
+      <p class="project-title">project2</p>
+      <ul class="tasks">
+        <li>Lorem, ipsum dolor.
+          <ul class="subtasks">
+            <li>Lorem, ipsum dolor.</li>
+            <li>Autem, fugiat laudantium.</li>
+            <li>Neque, eligendi dolorem.</li>
+          </ul>
+        </li>
+        <li>Doloremque, dignissimos at.
+          <ul class="subtasks">
+            <li>Lorem, ipsum dolor.</li>
+            <li>Quod, quos commodi.</li>
+            <li>Aliquid, ea nam.</li>
+          </ul>
+        </li>
+        <li>Sit, dolores est?
+          <ul class="subtasks">
+            <li>Lorem, ipsum dolor.</li>
+            <li>Ea, quas qui.</li>
+            <li>Culpa, quam magni.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <button id="new-project">+</button>
+    <button id="new-task">+</button>
+    <button id="new-subtask">+</button>
+
+
+
+
   </body>
 </html>
